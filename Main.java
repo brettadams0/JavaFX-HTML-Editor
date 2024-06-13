@@ -105,7 +105,7 @@ public class Main extends Application {
         Scene scene = new Scene(vBox, 800, 600);
 
         // Apply CSS
-        scene.getStylesheets().add("a/style.css");
+        scene.getStylesheets().add("styles.css");
 
         // Add the scene to the stage
         primaryStage.setScene(scene);
