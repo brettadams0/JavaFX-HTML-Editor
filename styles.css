@@ -1,0 +1,27 @@
+.root {
+    font-family: "Arial";
+    -fx-base: rgb(255, 255, 255); /* White base color */
+    background: rgb(240, 240, 240); /* Light gray background */
+}
+
+.menu-bar {
+    background-color: linear-gradient(to bottom, derive(-fx-base,30%) 0%, derive(-fx-base,60%) 100%);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1);
+}
+
+.menu-bar .label {
+    font-size: 15px;
+    font-weight: bold;
+    -fx-text-fill: #000000; /* Black text color */
+}
+
+.menu-item .label {
+    font-size: 13px;
+    -fx-text-fill: #000000; /* Black text color */
+}
+
+.html-editor {
+    font-size: 14px;
+    border-color: #4a4a4a; /* Dark gray border color */
+    border-radius: 5;
+}
